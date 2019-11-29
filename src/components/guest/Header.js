@@ -50,7 +50,8 @@ function Header(props) {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Photos
+          <Link to="/signUp">Sign Up</Link>
+          <Link to="/signIn">Sign In</Link>
           </Typography>
           {auth && (
             <div>
